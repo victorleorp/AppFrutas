@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaUva">
+
+
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="336dp"
+        android:text="Category"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/bordaInferior"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bordainferiordireito"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/bordasuperior"
+        android:layout_width="wrap_content"
+        android:layout_height="282dp"
+        android:layout_marginEnd="114dp"
+        android:background="@drawable/bordainferiordireito"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/container_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="282dp"
+        android:layout_marginEnd="114dp"
+        android:background="@drawable/bordasegundatela"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivUva"
+        android:layout_width="282dp"
+        android:layout_height="320dp"
+        android:layout_marginBottom="392dp"
+        android:rotation="270"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bordasuperior"
+        app:srcCompat="@drawable/uvaa" />
+
+    <ImageView
+        android:id="@+id/barrinhaMeio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328"
+        app:srcCompat="@drawable/removebarcinza" />
+
+    <ImageView
+        android:id="@+id/BarrinhaDireita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328"
+        app:srcCompat="@drawable/removebarcinza" />
+
+    <ImageView
+        android:id="@+id/barrinhaVerde"
+        android:layout_width="27dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328"
+        app:srcCompat="@drawable/removebarverde" />
+
+    <TextView
+        android:id="@+id/tvSweetGrapes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="392dp"
+        android:text="Sweet Grapes"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvkg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="392dp"
+        android:text="$20/kg"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivEstrela1"
+        android:layout_width="12dp"
+        android:layout_height="11dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="380dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/estrelaamarela" />
+
+    <ImageView
+        android:id="@+id/ivEstrela2"
+        android:layout_width="12dp"
+        android:layout_height="11dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="380dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/estrelaamarela" />
+
+    <ImageView
+        android:id="@+id/ivEstrela3"
+        android:layout_width="12dp"
+        android:layout_height="11dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="380dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/estrelaamarela" />
+
+    <ImageView
+        android:id="@+id/ivestrela4"
+        android:layout_width="12dp"
+        android:layout_height="11dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="380dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/estrelaamarela" />
+
+    <ImageView
+        android:id="@+id/ivEstrelaCinza"
+        android:layout_width="12dp"
+        android:layout_height="11dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="380dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/estrelacinza" />
+
+
+    <ImageView
+        android:id="@+id/ivUvaRoxa"
+        android:layout_width="98dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/bordauvaroxa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivUvaVerde"
+        app:srcCompat="@drawable/uvavermelhaa" />
+
+    <ImageView
+        android:id="@+id/ivuUvaVermelha"
+        android:layout_width="97dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/bordauvarosa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ivUvaVerde"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/redgrape" />
+
+    <TextView
+        android:id="@+id/Redgrapes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="220dp"
+        android:text="Red grapes"
+        android:textColor="#E91E63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivUvaVerde"
+        android:layout_width="105dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/bordauvaverde"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ivUvaRoxa"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivuUvaVermelha"
+        app:srcCompat="@drawable/uvaverdee" />
+
+    <TextView
+        android:id="@+id/tvCandyGrapes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="220dp"
+        android:text="Candy Grapes"
+        android:textColor="#6EBF0F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvGrapeCartoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="220dp"
+        android:text="Grape Cartoon"
+        android:textColor="#9C27B0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvBenefits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="168dp"
+        android:text="Benefits"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="100dp"
+        android:text="The nutrients in grapes may help protect against cancer, eye problems, darviovascular disease, and other helath conditions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivAddCircle"
+        android:layout_width="58dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/addcircle" />
+
+    <ImageView
+        android:id="@+id/ivRemoveCircle"
+        android:layout_width="43dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/removecircle" />
+
+    <TextView
+        android:id="@+id/tv1kg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginBottom="40dp"
+        android:text="1kg"
+        android:textColor="#989889"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="28dp"
+        android:text="Add to Cart"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

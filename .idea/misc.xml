@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/bookmark.xml" value="0.2295" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/bookmarkvermelho.xml" value="0.2295" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/bordaSegundaTela.xml" value="0.2015" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/bordabranca.xml" value="0.2295" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/bordainferiordireito.xml" value="0.2295" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/bordapera.xml" value="0.2015" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/bordasegundatela.xml" value="0.2295" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/bordauva.xml" value="0.2015" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/bordauvaRosa.xml" value="0.2295" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/bordauvaRoxa.xml" value="0.2295" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/bordauvaVerde.xml" value="0.2295" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/bordauvarosa.xml" value="0.2295" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/bordauvaroxa.xml" value="0.2295" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/bordauvaverde.xml" value="0.124" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/estrelaamarela.xml" value="0.2295" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/drawable/send.xml" value="0.2015" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/layout/activity_tela_carrinho.xml" value="0.4" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/layout/activity_tela_dois.xml" value="0.264" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/layout/activity_tela_frutas2.xml" value="0.264" />
+        <entry key="..\:/Users/vpacheco/AndroidStudioProjects/TelaFrutas/app/src/main/res/layout/adapter_lista.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
